@@ -108,3 +108,34 @@
   color: white;
   background-color: orange;
 }
+
+.text_box1{
+  width: 1px;
+  height: 1px;
+  border-radius: 10px;
+  border: 1px red;
+  display: block;
+  
+}
+.text_box2{
+  width: 1px;
+  height: 1px;
+  border-radius: 10px;
+  border: 1px pink;
+  
+}
+.text_box3{
+  width: 1px;
+  height: 1px;
+  border-radius: 10px;
+  border: 1px blue;
+  
+}
+
+.text_box4{
+  width: 1px;
+  height: 1px;
+  border-radius: 10px;
+  border: 1px orange;
+  
+}
