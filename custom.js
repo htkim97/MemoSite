@@ -12,6 +12,7 @@ function box_1_Click(bt){
   gsap.to('.text_box1',{duration:4,x:300,backgroundColor:'red',rotate:360,ease:'elastic'});
   gsap.to('.text_box1',{duration:1,width:200,height:200,});
   gsap.to('.text_box1',{duration:1,width:400,delay:1});
+  gsap.to('#delete_red',{duration:4,x:300,rotate:360,ease:'elastic'})
 
   
 
