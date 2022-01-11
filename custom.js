@@ -2,6 +2,7 @@ gsap.from('.add-memo1',{opacity:0,duration:1,y:-50});
 gsap.from('.add-memo2',{opacity:0,duration:1,y:-50,delay:0.1});
 gsap.from('.add-memo3',{opacity:0,duration:1,y:-50,delay:0.2});
 gsap.from('.add-memo4',{opacity:0,duration:1,y:-50,delay:0.3});
+gsap.from('.hr1',{opacity:0,duration:1,y:50,delay:0.7});
 gsap.from('.title',{opacity:0,duration:1,x:-50,delay:1});
 gsap.from('.add-memo button',{opacity:0,duration:3,rotate:220});
 gsap.from('.simpson',{opacity:0,ease:'bounce',duration:2,y:100});
@@ -12,7 +13,7 @@ function box_1_Click(bt){
   gsap.to('.text_box1',{duration:4,x:300,backgroundColor:'red',rotate:360,ease:'elastic'});
   gsap.to('.text_box1',{duration:1,width:200,height:200,});
   gsap.to('.text_box1',{duration:1,width:400,delay:1});
-  gsap.to('#delete_red',{duration:4,x:300,rotate:360,ease:'elastic'})
+  gsap.to('#delete_red',{duration:1,x:330,y:-60,rotate:360,opacity:0.7, color:'red',delay:1})
 
   
 
