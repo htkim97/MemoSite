@@ -37,42 +37,80 @@
     <div class="add-memo1">
      
      
-    
+      <!--첫번째 레드 박스  -->
 
       <button  class="material-icons" onclick="box_1_Click()">add </button>
-      
-      <textarea class="text_box1"></textarea>
+      <input id="text_box1" placeholder="빨간색....">
      
       
-     </div>
-     <div class="delete_btn" onclick="delete_1_Click()">
-      <button id="delete_red" class="material-icons">delete</button>
 
-      </div> 
+     
+     </div> 
+     
+     <!-- 레드 박스 내용 지우기 버튼 -->
+     
+     
+      <button id="delete_red" onclick="delete_1_click()">
+      <div class="material-icons">delete</div>
+      </button>
+
+      
+      
+      
     
     <div class="add-memo2">
+      
+      <!--두번째 핑크 박스  -->
 
       <button class="material-icons" onclick="box_2_Click()">add</button>
-      <textarea class="text_box2"></textarea>
+      <input id="text_box2" placeholder="핑크다...."> 
      
 
       
 
     </div>
+
+
+    <!-- 핑크 박스 내용 지우기 버튼 -->
+
+    <button id="delete_pink" onclick="delete_2_click()">
+      <div class="material-icons">delete</div>
+      </button>
+
+
+
+    
     <div class="add-memo3">
+      
+      <!--세번째 블루 박스  -->
  
       <button class="material-icons" onclick="box_3_Click()">add</button>
-      <textarea class="text_box3"></textarea>
+      <input id="text_box3" placeholder="블루다...."> 
       
      
     </div>
+
+     <!-- 블루 박스 내용 지우기 버튼 -->
+
+     <button id="delete_blue" onclick="delete_3_click()">
+      <div class="material-icons">delete</div>
+      </button>
     
-    
-    <div class="add-memo4">
+  
+    <div class="add-memo4">  
+      
+      <!-- 네번째 오렌지 박스 -->
 
       <button class="material-icons" onclick="box_4_Click()">add</button>
-      <textarea class="text_box4"></textarea>
+      <input id="text_box4" placeholder="오렌지다...."> 
     </div>
+
+     <!-- 오렌지 박스 내용 지우기 버튼 -->
+
+     <button id="delete_orange" onclick="delete_4_click()">
+      <div class="material-icons">delete</div>
+      </button>
+    
 
   </section>
 
@@ -82,6 +120,8 @@
   <script src="./custom.js"></script>
 
 
+
+  
 </body>
 
 </html>

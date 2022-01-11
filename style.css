@@ -162,7 +162,7 @@
 
 
 /* 텍스트 박스 */
-.text_box1{
+#text_box1{
   width: 1px;
   height: 1px;
   border-radius: 10px;
@@ -172,12 +172,13 @@
   font-size: 20px;
   text-shadow: 2px 3px 2px #000;
   text-align: center;
+
  
  
 
   
 }
-.text_box2{
+#text_box2{
   width: 1px;
   height: 1px;
   border-radius: 10px;
@@ -190,7 +191,7 @@
   
   
 }
-.text_box3{
+#text_box3{
   width: 1px;
   height: 1px;
   border-radius: 10px;
@@ -203,7 +204,7 @@
   
 }
 
-.text_box4{
+#text_box4{
   width: 1px;
   height: 1px;
   border-radius: 10px;
@@ -239,10 +240,26 @@
   border-radius: 40px;
   border: 1px solid aliceblue;
   
-  
  
+} 
 
+#delete_pink{
+    color: aliceblue;
+    font-size: 33px;
+    border-radius: 40px;
+    border: 1px solid aliceblue;
+}
 
+#delete_blue{
+  color: aliceblue;
+  font-size: 33px;
+  border-radius: 40px;
+  border: 1px solid aliceblue;
+}
 
-
+#delete_orange{
+  color: aliceblue;
+  font-size: 33px;
+  border-radius: 40px;
+  border: 1px solid aliceblue;
 }
