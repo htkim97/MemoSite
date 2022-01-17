@@ -9,119 +9,52 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
-  <title>즐거운 메모장</title>
+  <title>개발자 하기 싫어요</title>
+
 </head>
 <header>
-  <div class="nav">
-    <div class="title">요동치는 메모장</div>
-    <div class="simpson">
-      <img src="./img/pngwing.com (3).png " width="180px" height="180px" translate="yes">
-    </div>
-  </div>
 
-  
 </header>
 
-<hr class="hr1">
+
+
 
 <!-- 추가버튼 -->
+
 <body>
-  
 
-   
-  <section class="add-memo">
-
-  
-      
-   
-    <div class="add-memo1">
-     
-     
-      <!--첫번째 레드 박스  -->
-
-      <button  class="material-icons" onclick="box_1_Click()">add </button>
-      <input id="text_box1" placeholder="빨간색....">
-     
-      
-
-     
-     </div> 
-     
-     <!-- 레드 박스 내용 지우기 버튼 -->
-     
-     
-      <button id="delete_red" onclick="delete_1_click()">
-      <div class="material-icons">delete</div>
-      </button>
-
-      
-      
-      
+  <div id="chat" class="material-icons">textsms</div>
+  <div class="logo">
+    <img src="./img/pngwing.com (3).png" width="100px" alt="">
+    <hr class="hr1">
     
-    <div class="add-memo2">
-      
-      <!--두번째 핑크 박스  -->
+  </div>
+  <section class="plus_btn">
+    <button id="plus_red" class="material-icons" onclick="box_1_Click()">add</button>
+    <button id="plus_pink" class="material-icons" onclick="box_2_Click()">add</button>
+    <button id="plus_blue" class="material-icons" onclick="box_3_Click()">add</button>
+    <button id="plus_orange" class="material-icons" onclick="box_4_Click()">add</button>
+  </section>
 
-      <button class="material-icons" onclick="box_2_Click()">add</button>
-      <input id="text_box2" placeholder="핑크다...."> 
-     
+  <section>
 
-      
+    <!--박스 무한증식  -->
+    <div id="add_memo">
+
 
     </div>
-
-
-    <!-- 핑크 박스 내용 지우기 버튼 -->
-
-    <button id="delete_pink" onclick="delete_2_click()">
-      <div class="material-icons">delete</div>
-      </button>
-
-
-
-    
-    <div class="add-memo3">
-      
-      <!--세번째 블루 박스  -->
- 
-      <button class="material-icons" onclick="box_3_Click()">add</button>
-      <input id="text_box3" placeholder="블루다...."> 
-      
-     
-    </div>
-
-     <!-- 블루 박스 내용 지우기 버튼 -->
-
-     <button id="delete_blue" onclick="delete_3_click()">
-      <div class="material-icons">delete</div>
-      </button>
-    
-  
-    <div class="add-memo4">  
-      
-      <!-- 네번째 오렌지 박스 -->
-
-      <button class="material-icons" onclick="box_4_Click()">add</button>
-      <input id="text_box4" placeholder="오렌지다...."> 
-    </div>
-
-     <!-- 오렌지 박스 내용 지우기 버튼 -->
-
-     <button id="delete_orange" onclick="delete_4_click()">
-      <div class="material-icons">delete</div>
-      </button>
-    
 
   </section>
 
-  
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
   <script src="./custom.js"></script>
 
 
 
-  
+
+
 </body>
 
 </html>
