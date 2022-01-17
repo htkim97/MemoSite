@@ -28,19 +28,6 @@
 }
 
 
-.hr1{
- width: 7rem;
-  margin-left: -1px;
-  
-
-}
-
-#chat{
-  margin-left: 10rem;
-  font-size: 50px;
- 
-}
-
 
 header{
   padding: 70px;
@@ -188,7 +175,7 @@ header{
 
  
 #text_box1{
-  width: 200px;
+  width: 260px;
   height: 200px;
   border-radius: 10px;
   border: 1px ;
@@ -197,13 +184,14 @@ header{
   color: white;
   text-align: center;
   float: left;
+  padding: 10px;
   
   
   
 }
 
 #text_box2{
-  width: 200px;
+  width: 260px;
   height: 200px;
   border-radius: 10px;
   background-color: pink;
@@ -212,13 +200,14 @@ header{
   color: white;
   text-align: center;
   float: left;
+  padding: 10px;
   
  
   
   
 }
 #text_box3{
-  width: 200px;
+  width: 260px;
   height: 200px;
   border-radius: 10px;
   background-color:blue;
@@ -227,13 +216,14 @@ header{
   font-size: 20px;
   text-align: center;
   float: left;
+  padding: 10px;
   
  
   
 }
 
 #text_box4{
-  width: 200px;
+  width: 260px;
   height: 200px;
   border-radius: 10px;
   background-color: orange;
@@ -242,6 +232,7 @@ header{
   font-size: 20px;
   text-align: center;
   float: left;
+  padding: 10px;
  
   
 }
@@ -255,7 +246,7 @@ header{
 #delete_1{
 
   margin-left: -50px;
-  margin-top: 160px;
+  margin-top: 180px;
   float: left;
   background-color: red;
   border-radius: 40px;
@@ -268,7 +259,7 @@ header{
 #delete_2{
 
   margin-left: -50px;
-  margin-top: 160px;
+  margin-top: 180px;
   float: left;
   background-color: pink;
   border-radius: 40px;
@@ -281,7 +272,7 @@ header{
 #delete_3{
 
   margin-left: -50px;
-  margin-top: 160px;
+  margin-top: 180px;
   float: left;
   background-color: blue;
   border-radius: 40px;
@@ -294,7 +285,7 @@ header{
 #delete_4{
 
   margin-left: -50px;
-  margin-top: 160px;
+  margin-top: 180px;
   float: left;
   background-color: orange;
   border-radius: 40px;
@@ -304,9 +295,75 @@ header{
   
 
 }
+/* 리셋 */
+
+#reset_1{
+  margin-left: -80px;
+  margin-top: 180px;
+  float: left;
+  background-color: red;
+  border-radius: 40px;
+  border: 1px red;
+}
+#reset_2{
+  margin-left: -80px;
+  margin-top: 180px;
+  float: left;
+  background-color: pink;
+  border-radius: 40px;
+  border: 1px pink;
+}
+#reset_3{
+  margin-left: -80px;
+  margin-top: 180px;
+  float: left;
+  background-color: blue;
+  border-radius: 40px;
+  border: 1px blue;
+}
+#reset_4{
+  margin-left: -80px;
+  margin-top: 180px;
+  float: left;
+  background-color: orange;
+  border-radius: 40px;
+  border: 1px orange;
+}
+
+/* 로고 */
 
 .logo{
  margin-left: 60px;
  margin-top: -11px;
  
+}
+.hr1{
+ width: 7rem;
+  margin-left: -1px;
+  
+
+}
+
+#chat{
+  font-size: 60px;
+  margin-left: 9rem;
+  margin-bottom: 15px;
+  border: 0px;
+ 
+ 
+ 
+}
+
+/* 검색 */
+
+.srh{
+  float: right;
+  margin-right: 80rem;
+}
+
+
+/* 이름 */
+
+.name2{
+  margin-left: 1.5rem;
 }
